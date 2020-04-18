@@ -1,0 +1,63 @@
+page-discovery {
+    .card {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .card h2 {
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .card-header {
+        padding: 0;
+        padding-left: 16px;
+        padding-top: 5px;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .card-content {
+        padding-bottom: 0;
+    }
+    .mooc-content {
+        padding-top: 6px;
+        padding-left: 10px;
+        padding-bottom: 2px;
+    }
+    ion-note {
+        padding-left: 16px;
+    }
+    .card .mooc-note {
+        padding-left: 5px;
+        font-size: 1.1rem;
+    }
+    .card .mooc-col {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .icon {
+        padding-right: 18px;
+    }
+    .item {
+        padding-left: 10px;
+    }
+    .item p {
+        color: #999999;
+    }
+    .item ion-avatar {
+        margin: 0 !important;
+        margin-right: 5px !important;
+        margin-bottom: 3px !important;
+        min-height: 20px;
+        min-width: 20px;
+    }
+    .item ion-avatar img {
+        width: 20px;
+        height: 20px;
+    }
+    .more_button {
+        float: right;
+        padding-top: 3px;
+    }
+}

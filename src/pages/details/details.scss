@@ -1,0 +1,46 @@
+page-details {
+    .card {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10px;
+        box-shadow: none;
+    }
+    .card-content {
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+    }
+    .card-content p {
+        margin-top: 0px !important;
+    }
+    .button-default {
+        height: 1.8rem;
+        font-family: 1.3rem;
+        float: right;
+        display: block;
+        margin-bottom: 10px;
+        padding: 0 0.9em;
+    }
+    .card p {
+        margin-top: 10px;
+    }
+    .item-block {
+        min-height: 34px;
+    }
+    .item ion-avatar {
+      margin: 0 !important;
+      margin-right: 5px !important;
+      margin-bottom: 3px !important;
+      min-width: 20px;
+      min-height: 20px;
+    }
+
+    .item ion-avatar img {
+      width: 20px;
+      height: 20px;
+    }
+    .label {
+        margin: 0;
+    }
+
+
+}

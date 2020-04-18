@@ -1,0 +1,27 @@
+<!--
+  Generated template for the ChatPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>聊天</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <!-- 以另一种方式跳转页面，以及传递参数 -->
+    <ion-item [navPush]="chatdetailsPage" [navParams]="userinfo">
+      <ion-avatar item-start>
+        <img src="http://img.mukewang.com/user/57a322f00001e4ae02560256-40-40.jpg?1519969107090" />
+      </ion-avatar>
+      <h2>{{userinfo.username}}</h2>
+      <p>后来终于在眼泪中明白</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
